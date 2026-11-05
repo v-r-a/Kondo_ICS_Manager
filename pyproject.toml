@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kondo-ics-linux"
+version = "0.2.0"
+description = "Independent Linux desktop manager for Kondo ICS 3.5/3.6 servos"
+requires-python = ">=3.10"
+dependencies = ["pyserial>=3.5,<4"]
+
+[project.scripts]
+kondo-ics-manager = "ics_manager.gui:main"
+
+[tool.setuptools.packages.find]
+include = ["ics_manager*"]
