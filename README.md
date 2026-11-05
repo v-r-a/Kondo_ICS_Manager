@@ -44,6 +44,11 @@ Run without hardware:
 ```bash
 ./run.sh --demo
 ```
+Run with hardware:
+
+```bash
+./run.sh
+```
 
 The title explicitly identifies the virtual bus. Demo data is synthetic, not a model-specific factory preset.
 
