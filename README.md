@@ -2,7 +2,9 @@
 
 A native Python/Tkinter manager for **Kondo ICS 3.5/3.6 servos connected through a Kondo USB adapter**, using `/dev/ttyUSB*`. Keep the same adapter, cables, servo power and ICS-mode switch position used with the Windows manager.
 
-This is an independent implementation, not a Wine wrapper. Commands, EEPROM mapping and manager timing were inspected in the supplied Windows Manager **1.2.1.0** and cross-checked against Kondo protocol material. The software has passed automated protocol and simulated-device tests; **it has not yet been tested with a physical Kondo adapter/servo**.
+This is an independent implementation, not a Wine wrapper. Commands, EEPROM mapping and manager timing were inspected in the supplied Windows Manager **1.2.1.0** and cross-checked against Kondo protocol material. The software has been tested on daisy chained KRS2552R2HV motors.
+
+![Kondo ICS Manager GUI](GUI.png)
 
 ## New in 0.2.0
 
